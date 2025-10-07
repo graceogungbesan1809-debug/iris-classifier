@@ -1,0 +1,7 @@
+# Ignore environment and system files
+venv/
+__pycache__/
+*.log
+.DS_Store
+.ipynb_checkpoints/
+AppData/
