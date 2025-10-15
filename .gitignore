@@ -1,7 +1,19 @@
 # Ignore environment and system files
 venv/
 __pycache__/
+*.pyc
+*.pyo
 *.log
 .DS_Store
 .ipynb_checkpoints/
 AppData/
+
+# Ignore outputs and model artifacts
+outputs/*.png
+outputs/*.joblib
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore test reports or temporary files
+*.pytest_cache/
